@@ -9,4 +9,4 @@ This repository contains a list of all my GitHub repositories. It serves as a re
 Below is a list of all my repositories along with a brief description of each:
 
 {% for repository in github.repositories %}
-### [{{repository.name}}](https://github.com/{{repository.full_name}})
+### [{{repository.name}}](https://github.com/casshknight25/{repository.full_name}})
